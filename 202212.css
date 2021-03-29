@@ -1,0 +1,105 @@
+body{
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+img{
+    width: auto;
+    height: 80px
+}
+
+.profile-container{
+    display: flex;
+    align-content: flex-start;
+    width: 500px;
+    height: 305px;
+    padding: 5px;
+    border: 1px solid #4871af;
+    background-color: #89aae0;
+    border-radius: 50px;
+}
+
+.leftcolumn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.picture{
+    width: auto;
+    height: 225px;
+    clip-path: circle(40%);
+    margin-left: 20px;
+}
+
+.gitlab{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #80848b;
+    padding: 0 13px;
+    background: #8097b2;
+    margin-left: 15px;
+    transition: box-shadow 0.3s;
+}
+
+
+.gitlab:hover{
+    box-shadow: 0 0 3px #515151;
+}
+
+.gitlab:hover .icon{
+    transform: translate(0, -5px);
+}
+
+.icon{
+    transition: transform 0.3s;
+    display: flex;
+    width: 70px;
+    height: 60px;
+}
+
+.profile{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 0.5;
+    color: black;
+}
+
+.reason-container{
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 220px;
+    border: 1px solid #4067a1;
+    background-color: #3771ca;
+    margin-left: 25px;
+}
+
+.quotes{
+    padding-left: 15px;
+    padding-top: 26px;
+    font-size: 4em;
+}
+
+.reason p{
+    line-height: 1.3;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#webdev{
+    text-decoration: underline;
+}
+
+
+
